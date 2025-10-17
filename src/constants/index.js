@@ -1,10 +1,11 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { nqubLogo, SteerMetaLogo, ProfileIcon } from "../assets/images";
 import {
     car,
     contact,
     estate,
     github,
     linkedin,
+    itchio,
     pricewise,
     snapgram,
     summiz,
@@ -26,7 +27,11 @@ import {
     VisualStudio,
     VsCode,
     Webflow,
-    ZBrush
+    ZBrush,
+    Portal,
+    TopDownShooter,
+    CombatFinishers,
+    FirstPersonShooter,
 } from "../assets/icons";
 
 // Skills icons
@@ -127,118 +132,99 @@ export const skills = [
 // Work experiences
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Freelancer 3D generalist",
+        company_name: "Falza Vizion",
+        icon: ProfileIcon,
+        iconBg: "#343434",
+        date: "November 2019 - June 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed unique 3D character assets for an indie NFT project. Contributed to the overall look and feel of the project.",
+            "Created and textured character models, enhancing the quality and realism to attract a wider audience.",
+            "Built rigs for characters to enable smooth animations bringing the character to life improving audience engagement.",
+            "Animated characters delivering dynamic movements adding personality and depth bringing concepts into engaging visuals.",
+            "Illuminated and rendered final scenes ensuring high-quality outputs that met client requirements demonstrating my flexibility and commitment to meeting project deadlines."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Technical Artist lead",
+        company_name: "SteerMeta group",
+        icon: SteerMetaLogo,
+        iconBg: "#4aabf8",
+        date: "July 2021 - September 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Involved as 3D technical artist leader helping and monitoring the art team when rendering for cinematics.",
+            "Unreal Engine developer using blueprints adapting the UI coming from the design team on widgets to finally have a shipping project for the final client.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Technical Artist lead",
+        company_name: "nqüb",
+        icon: nqubLogo,
+        iconBg: "#a1a1a1",
+        date: "October 2023 - October 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Involved as a 3D technical artist, developing real-time and immersive experiences.",
+            "I have made some filters for Instagram and TikTok using MetaSpark Studio and Effect House.",
+            "Optimizing, creating UV maps and texturing 3D models.",
+            "Video editing for Instagram, TikTok, social media in general and for YouTube aswell.",
         ],
     },
 ];
 
-export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+export const socialLinks = [  
+
     {
         name: 'GitHub',
         iconUrl: github,
         link: 'https://github.com/FalzaVizion',
     },
+    
+    {
+        name: 'Itch.io',
+        iconUrl: itchio,
+        link: 'https://falzavizion.itch.io',
+    },
+
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/falzavizion',
-    }
+    },
+
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: FirstPersonShooter,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'First Person Shooter',
+        description: 'This Unreal Engine demo explores fundamental FPS systems like character locomotion, weapon handling, ammo logic and hit detection. Includes damage multipliers and decal-based bullet impacts for added realism.',
+        link: 'https://falzavizion.itch.io/first-person-shooter',
     },
     {
-        iconUrl: estate,
+        iconUrl: TopDownShooter,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Top Down Shooter',
+        description: 'A top-down shooter built in Unreal Engine 5, featuring wave-based enemy AI that hunts the player down. Survive against endless hordes. Shoot, run, reload, repeat.',
+        link: 'https://falzavizion.itch.io/top-down-shooter',
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        iconUrl: CombatFinishers,
+        theme: 'btn-back-blue',
+        name: 'Combat Finishers',
+        description: 'Combat Finisher is a short Unreal Engine prototype focused on close-range action. Approach enemies and execute finishing moves with a single button. A compact experiment in cinematic gameplay and responsive combat design.',
+        link: 'https://falzavizion.itch.io/combat-finisher',
+    },
+    {
+        iconUrl: Portal,
+        theme: 'btn-back-blue',
+        name: 'Seamless Portal',
+        description: 'A real-time seamless portal prototype developed in Unreal Engine 5 The system maintains full visual continuity and physics consistency, allowing players to see and move through portals without teleportation or scene transitions.',
+        link: 'https://falzavizion.itch.io/seamless-portal',
+    },
 ];

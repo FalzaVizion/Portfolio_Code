@@ -2,6 +2,7 @@ import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
+import itchio from './itchio.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
@@ -44,12 +45,17 @@ import VisualStudio from './MySkills/VisualStudio.svg'
 import VsCode from './MySkills/VsCode.svg'
 import Webflow from './MySkills/Webflow.svg'
 import ZBrush from './MySkills/ZBrush.svg'
+import Portal from './Portal.svg'
+import TopDownShooter from './TopDownShooter.svg'
+import CombatFinishers from './CombatFinishers.svg'
+import FirstPersonShooter from './FirstPersonShooter.svg'
 
 export {    
     css,
     express,
     git,
     github,
+    itchio,
     html,
     javascript,
     mongodb,
@@ -92,4 +98,8 @@ export {
     VsCode,
     Webflow,
     ZBrush,
+    Portal,
+    TopDownShooter,
+    CombatFinishers,
+    FirstPersonShooter
 }

@@ -30,21 +30,21 @@ const HomeInfo = ({ currentStage }) => {
     );
   }
 
-  // if (currentStage === 3) {
-  //   return (
-  //     <div className='info-box'>
-  //       <p className='font-medium text-center sm:text-xl'>
-  //         Guided multiple projects from idea to impact, learning something new in each step <br/>
-  //         <span className="font-bold">Want to walk through my journey?</span> 
-  //       </p>
+  if (currentStage === 3) {
+    return (
+      <div className='info-box'>
+        <p className='font-medium text-center sm:text-xl'>
+          Guided multiple projects from idea to impact, learning something new in each step <br/>
+          <span className="font-bold">Want to walk through my journey?</span> 
+        </p>
 
-  //       <Link to='/projects' className='neo-brutalism-gray neo-btn'>
-  //         Visit my portfolio
-  //         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-  //       </Link>
-  //     </div>
-  //   );
-  // }
+        <Link to='/projects' className='neo-brutalism-gray neo-btn'>
+          Visit my portfolio
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
+    );
+  }
 
   if (currentStage === 4) {
     return (

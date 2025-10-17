@@ -9,16 +9,19 @@ const Navbar = () => {
         <img src={logo} alt='logo' width='48' />
       </NavLink>
       <nav className='flex text-lg gap-7 font-medium'>
+
         <NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>
           About
         </NavLink>
-        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"} 
-        
-        // Delete the line below to make the link visible
-        style={{display: "none"}}>
-          
+
+        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}> 
           Projects
         </NavLink>
+
+        <NavLink to='/Contact' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>
+          Contact
+        </NavLink>       
+        
       </nav>
     </header>
   );
