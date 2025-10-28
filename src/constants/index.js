@@ -163,7 +163,7 @@ export const experiences = [
         iconBg: "#a1a1a1",
         date: "October 2023 - October 2025",
         points: [
-            "Involved as a 3D technical artist, developing real-time and immersive experiences.",
+            "Involved as a 3D technical artist, developing real-time and immersive experiences using Unreal Engine.",
             "I have made some filters for Instagram and TikTok using MetaSpark Studio and Effect House.",
             "Optimizing, creating UV maps and texturing 3D models.",
             "Video editing for Instagram, TikTok, social media in general and for YouTube aswell.",
