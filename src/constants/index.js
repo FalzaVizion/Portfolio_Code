@@ -184,17 +184,11 @@ export const socialLinks = [
         iconUrl: itchio,
         link: 'https://falzavizion.itch.io',
     },
-
+    
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/falzavizion',
-    },
-
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
     },
 ];
 
